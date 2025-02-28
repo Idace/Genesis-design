@@ -1,0 +1,42 @@
+header {
+    background: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    width: 100%;
+    max-width: $max-width;
+
+    
+
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+       
+    }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            
+           
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: $text-color;
+                    font-size: 15px;
+                    font-weight: bold;
+                    transition: color 0,3s ease, transform 0.3s ease;
+                    
+                    &:hover {
+                        color: #663a3a;
+                        transform: scale(1.6);
+
+                    }
+                }
+            }
+        }
+    }
+

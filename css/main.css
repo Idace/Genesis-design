@@ -1,0 +1,119 @@
+flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+header h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-transition: color 0, 3s ease, -webkit-transform 0.3s ease;
+  transition: color 0, 3s ease, -webkit-transform 0.3s ease;
+  transition: color 0, 3s ease, transform 0.3s ease;
+  transition: color 0, 3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+header nav ul li a:hover {
+  color: #663a3a;
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #333;
+  background-color: #fff;
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.maintext-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70% 20px 20%;
+  grid-template-columns: 70% 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  padding: 20px 20px;
+  gap: 20px;
+}
+
+.shootingstar-wrapper {
+  text-align: left;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+h4 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+.smalltext-wrapper {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-align: left;
+  font-size: 12px;
+}
