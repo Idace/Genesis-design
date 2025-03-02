@@ -128,3 +128,57 @@ img {
             color: #000;
         }
 
+.intro {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    text-align: left;
+    padding-top: 40px;
+    max-width: $max-width;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+h2 {
+    font-size: 30px;
+}
+.detail-item {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+
+    .detail {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+
+        .label {
+            font-weight: bold;
+            color: #333;
+        }
+        .value {
+            color: #666;
+            text-align: right;
+        }
+    }
+}
+.bigpicture {
+    width: 100%;
+}
+.textbetween {
+    display: flex;
+    align-items: left;
+    margin-top: 40px;
+    max-width: $max-width;
+    line-height: 1.8;
+    font-size: 18px;
+}
+.treeimg {
+    display: flex;
+    justify-content: space-between;
+}
