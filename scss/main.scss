@@ -27,8 +27,6 @@ main {
     grid-template-columns: 80% 20%;
     align-items: center;
     max-width: $max-width;
-    padding: 20px 20px;
-    gap: 20px;
     line-height: 1.8;
     
 }
@@ -50,4 +48,7 @@ h1 {
     align-self: flex-end;
     text-align: left;
     font-size: 12px;
+}
+img {
+    margin-top: 40px;
 }

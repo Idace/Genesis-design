@@ -21,7 +21,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 20px;
+  padding-top: 10px;
   width: 100%;
   max-width: 1200px;
 }
@@ -84,14 +84,12 @@ main {
 .maintext-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 80% 20px 20%;
+  -ms-grid-columns: 80% 20%;
   grid-template-columns: 80% 20%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   max-width: 1200px;
-  padding: 20px 20px;
-  gap: 20px;
   line-height: 1.8;
 }
 
@@ -117,4 +115,8 @@ h1 {
       align-self: flex-end;
   text-align: left;
   font-size: 12px;
+}
+
+img {
+  margin-top: 40px;
 }
