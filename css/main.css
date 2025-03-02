@@ -30,10 +30,10 @@ header h3 a {
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
-  color: #000000;
+  color: #212121;
 }
 header h3 a:hover {
-  color: #225e9f;
+  color: #316fb0;
   -webkit-transform: scale(1.6);
           transform: scale(1.6);
 }
@@ -46,7 +46,7 @@ header nav ul {
 }
 header nav ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #212121;
   font-size: 15px;
   font-weight: bold;
   -webkit-transition: color 0, 3s ease, -webkit-transform 0.3s ease;
@@ -55,7 +55,7 @@ header nav ul li a {
   transition: color 0, 3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 header nav ul li a:hover {
-  color: #225e9f;
+  color: #316fb0;
   -webkit-transform: scale(1.6);
           transform: scale(1.6);
 }
@@ -79,10 +79,10 @@ footer h3 a {
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
-  color: #000000;
+  color: #212121;
 }
 footer h3 a:hover {
-  color: #225e9f;
+  color: #316fb0;
   -webkit-transform: scale(1.6);
           transform: scale(1.6);
 }
@@ -95,7 +95,7 @@ footer nav ul {
 }
 footer nav ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #212121;
   font-size: 15px;
   font-weight: bold;
   -webkit-transition: color 0, 3s ease, -webkit-transform 0.3s ease;
@@ -105,18 +105,18 @@ footer nav ul li a {
   padding-right: 30px;
 }
 footer nav ul li a:hover {
-  color: #225e9f;
+  color: #316fb0;
   -webkit-transform: scale(1.6);
           transform: scale(1.6);
 }
 footer nav ul i {
   font-size: 18px;
-  color: #000000;
+  color: #212121;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 footer nav ul i:hover {
-  color: #225e9f;
+  color: #316fb0;
 }
 
 body {
@@ -137,7 +137,7 @@ body {
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
-  color: #000000;
+  color: #212121;
   background-color: #fff;
 }
 
@@ -165,11 +165,11 @@ main {
 }
 
 .highlight {
-  color: #225e9f;
+  color: #316fb0;
 }
 
 .head {
-  color: #225e9f;
+  color: #316fb0;
   margin-bottom: 20px;
   font-size: 18px;
 }
@@ -206,7 +206,7 @@ img {
   margin: 0 auto;
 }
 .about .worktext {
-  color: #000000;
+  color: #212121;
 }
 .about .services {
   display: -ms-grid;
@@ -297,7 +297,8 @@ p {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
+  padding-bottom: 30px;
 }
 
 .detail-item {
@@ -336,6 +337,7 @@ h2 {
 
 .bigpicture {
   width: 100%;
+  max-width: 1200px;
 }
 
 .textbetween {
@@ -346,10 +348,11 @@ h2 {
       -ms-flex-align: left;
           align-items: left;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   max-width: 1200px;
   line-height: 1.8;
   font-size: 18px;
+  color: #212121;
 }
 
 .treeimg {
@@ -359,6 +362,7 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .intro-contact {
@@ -377,33 +381,33 @@ h2 {
   margin-top: 10px;
   text-align: left;
   line-height: 1.8;
-  width: 500px;
+  width: 400px;
 }
 
 .contact-form label {
   color: #979393;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .contact-form input {
   border: none;
   outline: none;
   border-bottom: 1px solid #c2baba;
-  width: 500px;
+  width: 400px;
 }
 
 .btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #225e9f;
+  background-color: #316fb0;
   color: #fff;
   margin-top: 30px;
   padding: 10px;
   padding-left: 30px;
   border: none;
   cursor: pointer;
-  width: 100px;
+  width: 110px;
   text-decoration: none;
   font-size: 15px;
 }
