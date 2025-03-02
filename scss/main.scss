@@ -52,3 +52,79 @@ h1 {
 img {
     margin-top: 40px;
 }
+.worktext {
+    font-size: 25px;
+}
+.about {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    text-align: left;
+    padding-top: 40px;
+    max-width: $max-width;
+    margin: 0 auto;
+    
+    .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        color: rgb(162, 159, 159);
+        font-size: 18px;
+    
+        .div {
+            padding: 10px;
+            background: $white;
+            text-align: center;
+            border-radius: 5px;
+
+        }
+    }
+}
+.awards {
+    max-width: $max-width;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-top: 1px solid #ddd; 
+    
+}
+
+    .award {
+        display: flex;
+        gap: 40px;
+        align-items: flex-start;
+        padding: 20px 0;
+    }
+
+        h4 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+        margin: 0;
+        }
+    
+        .award-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 100px;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        p {
+            margin: 5px 0;
+            color: #666;
+        }
+      
+        .category {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .year {
+            text-align: right;
+            font-weight: bold;
+            color: #000;
+        }
+
