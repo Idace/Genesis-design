@@ -15,7 +15,6 @@ body {
     color: $text-color;
     background-color: $white;
 }
-
 main {
     width: 100%;
     max-width: $max-width;
@@ -24,7 +23,7 @@ main {
 }
 .maintext-container {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 20%;
     align-items: center;
     max-width: $max-width;
     line-height: 1.8;
@@ -36,21 +35,25 @@ main {
 .highlight {
     color: $secondary-color;
 }
-h4 {
+.head {
     color: $secondary-color;
-    margin-bottom: 20px;
-    
-}
-h1 {
+    margin-bottom: 20px; 
     font-size: 18px;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
 }
 .smalltext-wrapper {
     align-self: flex-end;
     text-align: left;
-    font-size: 12px;
+    font-size: 15px;
+    
+   
 }
 img {
-    margin-top: 40px;
+    margin-top: 80px;
 }
 .worktext {
     font-size: 25px;
@@ -59,16 +62,19 @@ img {
     display: grid;
     grid-template-columns: 60% 40%;
     text-align: left;
-    padding-top: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     max-width: $max-width;
     margin: 0 auto;
     
+    .worktext {
+    color: $text-color;
+    }
     .services {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-        color: rgb(162, 159, 159);
-        font-size: 18px;
+        color: $text-color2;
+        font-size: 15px;
     
         .div {
             padding: 10px;
@@ -138,7 +144,7 @@ img {
     line-height: 1.8;
 }
 h2 {
-    font-size: 30px;
+    font-size: 40px;
 }
 .detail-item {
     max-width: 600px;
@@ -174,6 +180,7 @@ h2 {
     display: flex;
     align-items: left;
     margin-top: 40px;
+    margin-bottom: 40px;
     max-width: $max-width;
     line-height: 1.8;
     font-size: 18px;
@@ -181,4 +188,55 @@ h2 {
 .treeimg {
     display: flex;
     justify-content: space-between;
+}
+
+.intro-contact {
+    display: grid;
+    grid-template-columns: 60% 20%;
+    text-align: left;
+    padding-top: 40px;
+    max-width: $max-width;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.contact-form {
+    margin-top: 10px;
+    text-align: left;
+    line-height: 1.8;
+    width: 500px;
+
+}
+.contact-form label {
+    color: #979393;
+    font-size: 18px;
+}
+.contact-form input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #c2baba;
+    width: 500px;
+}
+.btn {
+    display: flex;
+    background-color: $secondary-color;
+    color: $white;
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    text-decoration: none;
+    font-size: 15px;
+    
+
+    &:hover {
+        background-color: #837e7e;
+    }
+    
+}
+.map {
+    padding-top: 50px;
+    margin-bottom: 30px;
 }
