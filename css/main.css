@@ -211,11 +211,11 @@ img {
 .about .services {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
   color: #9b9090;
   font-size: 15px;
 }
+
 .about .services .div {
   padding: 10px;
   background: #fff;
