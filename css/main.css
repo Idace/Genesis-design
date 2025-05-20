@@ -373,7 +373,7 @@ h2 {
 }
 
 .treeimg img {
-width: 48%;
+width: 100%;
 max-width: 100%;
 height: auto;
 object-fit: cover;
@@ -396,14 +396,16 @@ object-fit: cover;
 }
 
 .contact-form {
-  margin-top: 10px;
-  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+  padding: 0 20px;
   max-width: 500px;
   text-align: left;
   line-height: 1.8;
   width: 100%;
   display:flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .contact-form label {
@@ -415,7 +417,8 @@ object-fit: cover;
   border: none;
   outline: none;
   border-bottom: 1px solid #c2baba;
-  width: 100%
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .btn {
@@ -443,7 +446,7 @@ object-fit: cover;
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 768xp) {
+@media screen and (max-width: 768px) {
   body { 
     padding-left: 20px;
     padding-right: 20px;
@@ -482,7 +485,7 @@ object-fit: cover;
   }
 
   .contact-form {
-    padding: 10px;
+    padding: 0
   }
 
 
