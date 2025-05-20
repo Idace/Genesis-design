@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preload" as="image" href="/img/picture-multi.webp" type="image/webp" />
+    <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Genesis-design</title>
     <script
       src="https://kit.fontawesome.com/df8ac4cd23.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous" defer>
+    </script>
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/main.css" />
   </head>
@@ -44,7 +46,8 @@
         </div>
       </section>
       <section>
-        <img src="/img/picture-multi.png" alt="diffrent pictures" />
+        
+        <img src="/img/picture-multi.webp" width="800" height="600" alt="diffrent pictures" loading="eager" fetchpriority="high"/>
       </section>
 
       <section class="about">
