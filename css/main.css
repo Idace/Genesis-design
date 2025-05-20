@@ -1,9 +1,5 @@
 flex-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -17,8 +13,6 @@ flex-center {
 
 header {
   background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -45,8 +39,6 @@ header h3 a:hover {
 }
 header nav ul {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
@@ -67,8 +59,6 @@ header nav ul li a:hover {
 
 footer {
   background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -93,8 +83,6 @@ footer h3 a:hover {
 }
 footer nav ul {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
@@ -103,12 +91,10 @@ footer nav ul li a {
   color: #212121;
   font-size: 15px;
   font-weight: bold;
-  -webkit-transition: color 0, 3s ease, -webkit-transform 0.3s ease;
-  transition: color 0, 3s ease, -webkit-transform 0.3s ease;
   transition: color 0, 3s ease, transform 0.3s ease;
-  transition: color 0, 3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
   padding-right: 30px;
 }
+
 footer nav ul li a:hover {
   color: #316fb0;
   -webkit-transform: scale(1.6);
@@ -126,8 +112,6 @@ footer nav ul i:hover {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -150,7 +134,6 @@ main {
   width: 100%;
   max-width: 1200px;
   margin: 50px auto;
-  text-align: center;
 }
 
 .maintext-container {
@@ -317,8 +300,6 @@ h2 {
   -ms-grid-columns: 1fr 10px 1fr;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  max-width: 600px;
-  padding: 20px;
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
 }
@@ -377,10 +358,10 @@ h2 {
 }
 
 .treeimg img {
-width: 100%;
-max-width: 100%;
+width: calc(33.333% - 13.33px);
 height: auto;
 object-fit: cover;
+border-radius: 8px;
 }
 
 
@@ -406,7 +387,6 @@ object-fit: cover;
   max-width: 500px;
   text-align: left;
   line-height: 1.8;
-  width: 100%;
   display:flex;
   flex-direction: column;
   box-sizing: border-box;
