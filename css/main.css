@@ -218,7 +218,7 @@ img {
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  color: #9b9090;
+  color: #444444;
   font-size: 15px;
 }
 .about .services .div {
@@ -275,7 +275,7 @@ h4 {
 
 p {
   margin: 5px 0;
-  color: #666;
+  color: #333;
 }
 
 .category {
@@ -409,7 +409,7 @@ object-fit: cover;
 }
 
 .contact-form label {
-  color: #979393;
+  color: #666;
   font-size: 15px;
 }
 
