@@ -161,7 +161,6 @@ img {
 }
 
 .about {
-  display: -ms-grid;
   display: grid;
   grid-template-columns: 60% 40%;
   text-align: left;
@@ -252,7 +251,6 @@ h2 {
 .detail-item {
   max-width: 600px;
   display: grid;
-  -ms-grid-columns: 1fr 10px 1fr;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   border-bottom: 1px solid #ddd;
